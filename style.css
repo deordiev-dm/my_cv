@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body {
+    
+    font-family: 'Ubuntu', sans-serif;
+    font: 18px, 400;
+    background-color: rgb(6, 7, 26) ;
+    color: #fff;
+    max-width: 900px;
+    margin: auto;
+    padding: 70px 0 ;
+    background-image: linear-gradient(to bottom, rgba(18, 46, 0, 0.137), rgb(5, 0, 26)), url(/stars.jpg);
+
+}
+
+.main_container > div {
+    margin: 15px;
+    padding: 20px 30px;   
+    border-radius: 20px;
+} 
+
+/* container_1, name & about me */
+.container_1 {
+    background-color: rgba(104, 87, 180, 0.65);
+    color: rgba(255, 251, 251, 0.87);
+}
+
+.container_1 h1 {
+    padding-bottom: 10px;
+}
+/* container 1, name & about me */
+
+
+/* container_2, image & intro_text */
+.container_2 {
+    background-color: rgba(0, 116, 184, 0.65);
+    display: flex;
+    color: rgb(255, 255, 255);
+}
+
+.my_image {
+    padding: 20px 5px;
+    padding-right: 25px;
+}
+
+.img_1 {
+    width: 200px;
+    border-radius: 20px;
+}
+
+.intro-text  {
+    margin: auto;
+}
+
+@media (max-width: 750px) {
+    .container_2 {
+        display: block;
+        text-align: center;
+    }
+    .img_1 {
+        border-radius: 50%;
+    }
+}
+/* container_2, image & intro_text */
+
+/* container_5, achivments */
+.container_5 {
+    background-color: rgba(243, 46, 46, 0.65);
+}
+
+.container_5 h2 {
+    padding-bottom: 20px;
+}
+
+td {
+    /* border: 30px black solid; */
+    padding: 10px 5px;
+    border-bottom: solid 1px rgba(185, 73, 73, 0.726);
+ }
+
+th {
+    text-align: left;
+    border: solid 1px rgba(185, 73, 73, 0.842);
+ }     
+/* container_5, achivments
+
+
+/* container_3 */
+.container_3 {
+    background-color: rgba(0, 124, 11, 0.65);
+}
+
+li {
+    list-style  : none;
+}
+/* container_3 */
+
+
+/* container_4 how to contact me */
+.container_4 {
+    background-color: rgba(26, 118, 223, 0.65) ;
+}
+/* container_4 how to contact me */
+
+
+/* headers style */
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    padding: 10px, 3px;
+    margin:0;
+}
+/* headers style */
+
+
+/* links style */
+a { 
+    color: rgb(214, 170, 89);
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: rgb(0, 0, 0);
+    text-decoration: underline;
+} 
+
+/* links style */
+
+.btn {
+    position: fixed;
+    bottom: 3%;
+    right: 3%;
+    background: none;
+    border: none;
+    border-radius: 100%;
+}
+
+.logo {
+    width: 60px;
+    border-radius: 50%;
+    border: rgba(241, 242, 243, 0) 1px solid;
+}
+
+.logo:hover { 
+    border: rgba(255, 255, 255, 0) 2px solid;
+}
+
+@media (max-width: 1090px) {
+    .btn {
+        position: fixed;
+        bottom: 5px;
+        right: 3%;
+    }
+}
+
+.emojiho {
+    width: 4%;
+    padding: 0px 10px;
+}
+
+.emojiho1 {
+    width: 5%;
+    padding: 0px 10px;
+}
+
+.bbal-ph {
+    width: 200px;
+    height: 250px;
+    border-radius: 30px;
+    margin: 0px 0px;
+    /* border: black 2px solid; */
+}
+
+.container_3_1 {
+    display: flex;
+}
+
+.photos {
+    display: flex;
+}
+
+.list_11 {
+    /* border: black 2px solid; */
+    padding-right: 100px;
+    margin-right: 10px;
+}
+
+.bbal {
+    /* border: solid black 2px; */
+    margin-right: 10px;
+    padding: 0;
+}
+
+.dawgs-img {
+    width: 200px;
+    border-radius: 30px;
+    height: 250px;
+}
+
+@media (max-width: 780px) {
+    .container_3_1 {
+        display: block;
+    }
+    .container_3 {
+        text-align: center;
+    }
+    .hobbi {
+        margin: 0px;
+    }
+}
